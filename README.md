@@ -78,9 +78,10 @@ MYR value is highlighted for quick scanning.
 
 2. Open extensions page:
 
+```
 Chrome: chrome://extensions
 Edge: edge://extensions
-
+```
 
 3. Enable Developer mode
 
