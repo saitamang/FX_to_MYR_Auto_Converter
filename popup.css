@@ -1,0 +1,29 @@
+body {
+  font-family: system-ui, Arial, sans-serif;
+  margin: 12px;
+  width: 300px;
+}
+h3 { margin: 0 0 10px; }
+.section {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+}
+.row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin: 6px 0;
+}
+.muted {
+  color: #666;
+  font-size: 12px;
+}
+.host {
+  font-weight: 700;
+  margin: 4px 0 6px;
+  word-break: break-all;
+}
+.status {
+  margin-top: 10px;
+}

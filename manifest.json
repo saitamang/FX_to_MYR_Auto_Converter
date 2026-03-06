@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "FX → MYR Auto Converter",
+  "version": "1.2.0",
+  "description": "Convert multiple currencies to MYR on web pages. Enable triggers refresh. MYR value highlighted. No duplicate badges.",
+  "permissions": ["storage", "tabs"],
+  "host_permissions": ["<all_urls>"],
+  "background": { "service_worker": "sw.js" },
+  "action": { "default_popup": "popup.html", "default_title": "FX → MYR" },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

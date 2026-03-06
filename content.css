@@ -1,0 +1,21 @@
+/* content.css */
+.fx2myr-badge {
+  margin-left: 4px;
+  display: inline-flex;
+  align-items: baseline;
+  white-space: nowrap;
+}
+.fx2myr-highlight {
+  background: #fff3b0; /* soft yellow */
+  color: #111827;
+  font-weight: 800;
+  padding: 0 6px;
+  border-radius: 6px;
+  border: 1px solid rgba(0,0,0,0.18);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.06);
+}
+.fx2myr-muted {
+  opacity: 0.75;
+  font-weight: 600;
+  margin: 0 2px;
+}

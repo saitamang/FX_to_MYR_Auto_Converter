@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>FX → MYR</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h3>FX → MYR</h3>
+
+  <label class="row">
+    <input id="globalEnabled" type="checkbox" />
+    <span>Enable converter (refresh page)</span>
+  </label>
+
+  <div class="section">
+    <div class="muted">This site:</div>
+    <div id="siteHost" class="host">…</div>
+    <label class="row">
+      <input id="siteEnabled" type="checkbox" />
+      <span>Enable on this site (refresh page)</span>
+    </label>
+  </div>
+
+  <div class="section">
+    <div class="muted">Rates:</div>
+    <div id="rateInfo" class="muted">Not updated yet</div>
+    <div class="row">
+      <button id="refreshRates" type="button">Update rates now</button>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="muted">Convert currencies → MYR</div>
+    <div id="currencies"></div>
+  </div>
+
+  <div id="status" class="status muted"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
