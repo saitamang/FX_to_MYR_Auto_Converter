@@ -35,9 +35,13 @@ Automatically converts foreign currency amounts (USD, EUR, GBP, JPY, etc.) on we
 
 ## 📸 How It Looks
 
-Example on a webpage:
+Example on a webpage (Turn OFF):
 
-$199  (≈ MYR 935.30)
+![Before Turn ON](img/before_on.png)
+
+Example on a webpage (Turn ON):
+
+![After Turn ON](img/after_on.png)
 
 MYR value is highlighted for quick scanning.
 
