@@ -72,9 +72,9 @@ MYR value is highlighted for quick scanning.
 ### Chrome / Edge
 
 1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourname/fx-myr-auto-converter.git
-   ```
+```bash
+git clone https://github.com/yourname/fx-myr-auto-converter.git
+```
 
 2. Open extensions page:
 
@@ -90,6 +90,7 @@ Edge: edge://extensions
 
 
 5. Select the project folder
+
 
 ✅ Extension is now active.
 
