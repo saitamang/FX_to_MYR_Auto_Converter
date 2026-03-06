@@ -94,6 +94,11 @@ Edge: edge://extensions
 
 ✅ Extension is now active.
 
+Example link : 
+```
+https://www.giac.org/pricing/
+```
+
 ---
 
 ## ⚙️ Usage
