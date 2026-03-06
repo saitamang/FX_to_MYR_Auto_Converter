@@ -88,6 +88,8 @@ Edge: edge://extensions
 
 ✅ Extension is now active.
 
+---
+
 ## ⚙️ Usage
 
 Click the FX → MYR extension icon
@@ -101,6 +103,7 @@ You can also:
 Disable conversion on specific sites
 Force refresh exchange rates anytime
 
+---
 
 ## 🌐 Exchange Rate Source
 Rates are fetched from Frankfurter API:
@@ -114,6 +117,7 @@ Based on institutional reference rates
 
 Rates are cached locally and refreshed automatically.
 
+---
 
 ## 🔒 Privacy & Security
 
@@ -122,6 +126,7 @@ Rates are cached locally and refreshed automatically.
 ✅ No data sent to third parties (except FX rates)
 ✅ Runs entirely in your browser
 
+---
 
 ## 🛠️ Tech Stack
 
@@ -131,6 +136,7 @@ Service Worker background
 MutationObserver (DOM‑safe)
 chrome.storage.local
 
+---
 
 ## 🚧 Limitations
 
@@ -138,10 +144,13 @@ FX rates are reference rates, not for trading
 Conversion happens on visible text only
 Pages rendered as images (e.g. PDFs) are not supported
 
+---
 
 ## 📄 License
 MIT License
 Feel free to fork, modify, and share.
+
+---
 
 ## 🤝 Contributing
 PRs welcome for:
@@ -151,6 +160,7 @@ UI improvements
 Performance optimizations
 Regex edge cases
 
+---
 
 ## ⭐️ Star the Repo
 If you find this useful, please ⭐️ the repo to help others find it!
